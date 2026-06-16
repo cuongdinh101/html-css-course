@@ -1,0 +1,48 @@
+.skip {
+    position: absolute;
+    left: -999px;
+    top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #000000;
+}
+
+.skip:focus {
+    left: 10px;
+}
+
+li {
+    /* display: inline-block;
+    width: 180px; */
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #364f6b;
+    padding: 12px;
+}
+
+nav img {
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

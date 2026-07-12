@@ -1,36 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Interactive Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lộ trình trở thành Cloud Solution Architect</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
+    <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
 
-    <h1>Interactive Photo Gallery</h1>
+    <header class="site-header">
+        <div class="container header-content">
+            <p class="eyebrow">Dự án HTML5 cuối khóa</p>
+            <h1>Lộ trình trở thành Cloud Solution Architect</h1>
+            <p class="intro">
+                Một bản đồ học tập thực tế dành cho sinh viên CNTT muốn xây dựng nền tảng lập trình,
+                hệ thống và điện toán đám mây để thiết kế các giải pháp cloud an toàn, mở rộng và hiệu quả.
+            </p>
+        </div>
 
-    <div id="image">
-        Hover over an image below to display here.
-    </div>
+        <nav class="site-nav" aria-label="Điều hướng chính">
+            <div class="container nav-list">
+                <a href="#gioi-thieu">Giới thiệu</a>
+                <a href="#ky-nang">Kỹ năng</a>
+                <a href="#lo-trinh">Lộ trình</a>
+                <a href="#cong-nghe">Công nghệ</a>
+                <a href="#tai-nguyen">Tài nguyên</a>
+            </div>
+        </nav>
+    </header>
 
-    <img class="preview"
-         src="https://picsum.photos/id/1015/300/200"
-         alt="Beautiful lake"
-         onmouseover="upDate(this)"
-         onmouseout="unDo()">
+    <main id="main-content" class="container" tabindex="-1">
+        <section id="gioi-thieu" class="section-card">
+            <div class="section-text">
+                <h2>Giới thiệu nghề Cloud Solution Architect</h2>
+                <p>
+                    Cloud Solution Architect là người phân tích nhu cầu kinh doanh, thiết kế kiến trúc hệ thống
+                    trên nền tảng đám mây và phối hợp với các nhóm phát triển, vận hành, bảo mật để đưa giải pháp
+                    vào thực tế. Vai trò này cần hiểu cả phần mềm, hạ tầng, mạng, cơ sở dữ liệu và chi phí cloud.
+                </p>
+                <p>
+                    Một kiến trúc sư cloud giỏi không chỉ biết dùng dịch vụ AWS, Azure hay Google Cloud, mà còn biết
+                    khi nào nên dùng dịch vụ nào, cách giảm rủi ro, cách thiết kế hệ thống để chịu lỗi và cách trình
+                    bày phương án rõ ràng cho người không chuyên kỹ thuật.
+                </p>
+            </div>
+            <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Mạng lưới kết nối công nghệ tượng trưng cho điện toán đám mây"
+            >
+        </section>
 
-    <img class="preview"
-         src="https://picsum.photos/id/1018/300/200"
-         alt="Mountain view"
-         onmouseover="upDate(this)"
-         onmouseout="unDo()">
+        <section id="ky-nang" class="section-card">
+            <div class="section-text">
+                <h2>Các kỹ năng cần học</h2>
+                <p>
+                    Để đi đường dài với nghề này, sinh viên nên xây dựng nền tảng theo thứ tự: từ lập trình,
+                    hệ điều hành, mạng máy tính, cơ sở dữ liệu đến vận hành và thiết kế kiến trúc.
+                </p>
+                <ul class="check-list">
+                    <li>Tư duy lập trình và giải quyết vấn đề bằng Java hoặc một ngôn ngữ backend phổ biến.</li>
+                    <li>Kiến thức Linux, Networking, HTTP, DNS, TCP/IP và bảo mật cơ bản.</li>
+                    <li>Khả năng thiết kế hệ thống, đọc tài liệu kỹ thuật và giao tiếp với nhiều nhóm khác nhau.</li>
+                    <li>Thực hành Docker, Kubernetes, CI/CD và các dịch vụ AWS cốt lõi.</li>
+                </ul>
+            </div>
+            <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Lập trình viên làm việc với mã nguồn trên màn hình máy tính"
+            >
+        </section>
 
-    <img class="preview"
-         src="https://picsum.photos/id/103/300/200"
-         alt="Forest road"
-         onmouseover="upDate(this)"
-         onmouseout="unDo()">
+        <section id="lo-trinh" class="learning-path">
+            <h2>Lộ trình học tập theo từng giai đoạn</h2>
+            <div class="card-grid">
+                <article class="mini-card">
+                    <h3>Giai đoạn 1: Nền tảng CNTT</h3>
+                    <p>
+                        Học HTML, CSS, Java cơ bản, Git, Linux command line và cách máy tính giao tiếp qua mạng.
+                    </p>
+                </article>
 
-    <script src="script.js"></script>
+                <article class="mini-card">
+                    <h3>Giai đoạn 2: Backend và dữ liệu</h3>
+                    <p>
+                        Xây dựng API, làm việc với SQL, NoSQL, cache, message queue và các mô hình triển khai ứng dụng.
+                    </p>
+                </article>
+
+                <article class="mini-card">
+                    <h3>Giai đoạn 3: Container và cloud</h3>
+                    <p>
+                        Đóng gói ứng dụng bằng Docker, điều phối bằng Kubernetes và triển khai trên AWS với IAM,
+                        VPC, EC2, S3, RDS, Lambda.
+                    </p>
+                </article>
+
+                <article class="mini-card">
+                    <h3>Giai đoạn 4: Kiến trúc giải pháp</h3>
+                    <p>
+                        Thiết kế hệ thống có khả năng mở rộng, quan sát được, tối ưu chi phí, bảo mật và có kế hoạch
+                        khôi phục sau sự cố.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="cong-nghe" class="section-card">
+            <div class="section-text">
+                <h2>Công nghệ cần tìm hiểu</h2>
+                <p>
+                    Các công nghệ dưới đây tạo thành bộ công cụ quan trọng giúp bạn chuyển từ người học lập trình
+                    sang người có khả năng thiết kế và vận hành hệ thống cloud.
+                </p>
+                <div class="tech-tags" aria-label="Danh sách công nghệ">
+                    <span>Linux</span>
+                    <span>Networking</span>
+                    <span>Java</span>
+                    <span>Docker</span>
+                    <span>Kubernetes</span>
+                    <span>AWS</span>
+                    <span>Database</span>
+                    <span>System Design</span>
+                </div>
+            </div>
+            <img
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&amp;fit=crop&amp;w=1200&amp;q=80"
+                alt="Hệ thống máy chủ trong trung tâm dữ liệu đại diện cho kiến trúc hệ thống"
+            >
+        </section>
+
+        <section id="muc-tieu" class="learning-path">
+            <h2>Mục tiêu học tập</h2>
+            <div class="card-grid">
+                <article class="mini-card">
+                    <h3>Trong 3 tháng đầu</h3>
+                    <p>Nắm vững Linux, Git, Java cơ bản, HTTP và kiến thức mạng nền tảng.</p>
+                </article>
+                <article class="mini-card">
+                    <h3>Trong 6 tháng</h3>
+                    <p>Xây dựng được một ứng dụng backend có database, container hóa bằng Docker và triển khai thử nghiệm.</p>
+                </article>
+                <article class="mini-card">
+                    <h3>Trong 12 tháng</h3>
+                    <p>Thiết kế một kiến trúc cloud hoàn chỉnh có tính đến bảo mật, chi phí, giám sát và khả năng mở rộng.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="tai-nguyen" class="resources section-card">
+            <div class="section-text">
+                <h2>Tài nguyên học tập hữu ích</h2>
+                <p>
+                    Những tài nguyên sau có tài liệu chính thống, rõ ràng và phù hợp để học từng mảng kiến thức
+                    trong lộ trình Cloud Solution Architect.
+                </p>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://skillbuilder.aws/" target="_blank" rel="noopener noreferrer">
+                            AWS Skill Builder - khóa học và lab về dịch vụ AWS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.docker.com/get-started/" target="_blank" rel="noopener noreferrer">
+                            Docker Docs - hướng dẫn bắt đầu với container
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://kubernetes.io/docs/home/" target="_blank" rel="noopener noreferrer">
+                            Kubernetes Documentation - tài liệu chính thức về Kubernetes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer">
+                            MDN Web Docs - nền tảng web và lập trình cho người học
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>Dự án website HTML5 về lộ trình nghề nghiệp Cloud Solution Architect.</p>
+            <a href="#top">Quay lại đầu trang</a>
+        </div>
+    </footer>
 </body>
 </html>
